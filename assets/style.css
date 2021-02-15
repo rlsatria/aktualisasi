@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+article {
+    margin-top: 30px;
+}
+
+p {
+    line-height: 1.5em;
+    margin-top: 1.5em;
+}
+
+div {
+    display: block;
+}
+
+
+#topmenu {
+    display: flex;
+    align-items: center;
+    
+    
+    position: fixed;
+    justify-content: space-around;
+    z-index: 999;
+    width: 100%;
+    text-decoration: none;
+    
+}
+
+#topmenu a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.nav_content {
+    margin-left: auto;
+    margin-right: 10%;
+    
+
+}
+
+.nav_menu {
+    list-style: none;
+    
+}
+
+.nav_menu li {
+    color: white;
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+.nav_menu li a {
+    transition: all 0.3s ease;
+    
+    color: white;
+    
+    
+}
+
+.nav_menu li a:hover {
+    color: #0088a9;
+}
+
+#logo {
+    margin-right: auto;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+
+#discovertext {
+    font-family: Cochin;
+    margin: 0%;
+    padding: 0%;
+    font-size: 9pt;
+    text-decoration: none;
+    
+    
+}
+
+#torajatext {
+    font-family: Amerika Sans;
+    margin: 0%;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 16pt;
+    padding: 0%;
+    text-decoration: none;
+    
+}
+
+
+
+.intro-text {
+    font-family: sans-serif;
+    font-size: 300%;
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.intro-text >h4 {
+    font-weight: lighter;
+    
+}
+
+.introduction {
+    background: linear-gradient(to right,rgba(179, 179, 179, 0.8),rgba(80,80,80,0.5) 40%,rgba(80,80,80,0.2)),
+    url('images/tongkonan.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.history {
+    display: flex;
+    flex-direction: row; 
+}
+
+.history-left {
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-title {
+    text-align: center;
+    font-size: x-large;
+}
+
+.history-text {
+    text-align: center;
+}
+
+.history-right {
+    float: right;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-cover {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10%;
+}
+
+
+
+.culture {
+    background-color: black;
+    color: white;
+    padding-top: 16pt;
+}
+
+.culture-title {
+    text-align: center;
+    font-size: x-large;
+}
+
+.culture-content {
+    margin-top: 20pt;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.culture-item {
+    width: 27%;
+    margin: 3.16667%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.culture-image {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+.destination {
+    padding-top: 16pt;
+}
+
+.destination-title {
+    text-align: center;
+    font-size: x-large;
+}
+
+.destination-content {
+    margin-top: 20pt;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.destination-item {
+    width: 27%;
+    margin: 3.16667%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.destination-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.destination-text > h3 {
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+aside {
+    width: 0px;
+    color: white;
+    background-image: linear-gradient(to left,rgba(179, 179, 179, 0.8),rgba(80, 80, 80, 0.808),rgba(80, 80, 80, 0.76));
+    padding-bottom: 1%;
+    border-radius: 5%;
+    right: 0;
+    top: 20vh;
+    position: fixed;
+    z-index: 9999;
+    
+}
+
+.biodata-image {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 10%;
+    margin-bottom: 10%;
+}
+
+.image-biodata {
+    width: 100%;
+    border-radius: 3%;
+}
+
+.biodata-title {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.biodata-item {
+    margin-left: 10%;
+    margin-bottom: 10px;
+    
+}
+
+.biodata-item > p{
+    line-height: normal;
+    margin-top: 0%;
+    
+}
+
+.asideaccess {
+    background-color: transparent;
+    background-image: url('images/asidebw.png');
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    border: none;
+    z-index: 99999;
+    right: 0;
+    margin-left: 3.3em;
+    margin-top: 20vh;
+    cursor: pointer;
+}
+
+.asideaccess:focus{
+    outline: none;
+}
+
+
+footer {
+    padding : 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+
